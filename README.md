@@ -1,7 +1,54 @@
-# Hand-sign-and-gesture-recogination-system
-•  Created an assistive system to interpret sign language in real-time with 85%+ accuracy
-   using Convolutional Neural Networks
-   
-•  Integrated video feed processing pipeline to capture hand gestures and display
-   corresponding text output
+# Hand Sign & Gesture Recognition System
+
+A real-time **Hand Sign & Gesture Recognition System** built using **Python, OpenCV, MediaPipe, and TensorFlow**. The system detects hand regions from live video, extracts landmarks, and classifies gestures using a trained CNN model. Designed to help deaf and mute individuals communicate effectively and enable gesture-based human–computer interaction.
+
+---
+
+## 🚀 Features
+- Real-time hand detection and gesture recognition
+- Uses **MediaPipe** to detect 21 hand landmarks
+- ROI extraction using **Haar-Cascade**
+- Gesture classification using a **Convolutional Neural Network (CNN)**
+- No external hardware required—only a webcam
+
+---
+
+## 🧠 Tech Stack
+- **Python**
+- **OpenCV** – Video processing
+- **MediaPipe** – Hand landmark detection
+- **TensorFlow / Keras** – CNN model training
+- **NumPy, Pandas**
+
+---
+
+## 📂 Project Structure
+```
+Hand-Gesture-Recognition/
+│── dataset/
+│── model/
+│   └── mp_hand_gesture.h5
+│── gesture.names
+│── main.py
+│── create_dataset.py
+│── README.md
+```
+---
+
+## ✅ Advantages
+- Improved communication for deaf and mute individuals
+- Can automate gesture-to-text for videos (YouTube, Netflix, etc.)
+- No special hardware required
+
+
+## ▶️ Running the Project
+### Install dependencies
+```
+pip install opencv-python mediapipe tensorflow numpy scikit-learn
+```
+
+### Run program
+```
+python main.py
+```
 
