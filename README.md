@@ -12,6 +12,9 @@ A real-time **Hand Sign & Gesture Recognition System** built using **Python, Ope
 - No external hardware required—only a webcam
 
 ---
+<img width="622" height="381" alt="image" src="https://github.com/user-attachments/assets/bea488b0-19bd-4228-a510-694a862fbb4c" />
+
+---
 
 ## 🧠 Tech Stack
 - **Python**
@@ -26,11 +29,9 @@ A real-time **Hand Sign & Gesture Recognition System** built using **Python, Ope
 ```
 Hand-Gesture-Recognition/
 │── dataset/
-│── model/
-│   └── mp_hand_gesture.h5
 │── gesture.names
 │── main.py
-│── create_dataset.py
+│── dataset.py
 │── README.md
 ```
 ---
