@@ -10,6 +10,15 @@ A real-time **Hand Sign & Gesture Recognition System** built using **Python, Ope
 - ROI extraction using **Haar-Cascade**
 - Gesture classification using a **Convolutional Neural Network (CNN)**
 - No external hardware required—only a webcam
+---
+## 🏷️ Tags
+- Machine Learning
+- Deep Learning
+- CNN
+- OpenCV
+- MediaPipe
+- Python
+- Real-Time Processing
 
 ---
 <img width="622" height="381" alt="image" src="https://github.com/user-attachments/assets/bea488b0-19bd-4228-a510-694a862fbb4c" />
